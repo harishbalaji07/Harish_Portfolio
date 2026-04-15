@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harish Balaji G &mdash; Data Scientist &amp; AI/ML Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="cursor"></div>
+  <div id="cursor-dot"></div>
+
+  <!-- LOADER -->
+  <div id="loader">
+    <div class="loader-name" id="loader-name">Harish Balaji G<span></div>
+    <div class="loader-tag" id="loader-tag">// Data Scientist & AI/ML Engineer</div>
+    <div class="loader-bar-wrap"><div class="loader-bar" id="loader-bar"></div></div>
+    <div class="loader-counter" id="loader-counter">000</div>
+  </div>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about" onclick="closeMobileMenu()">About</a>
+    <a href="#projects" onclick="closeMobileMenu()">Projects</a>
+    <a href="#experience" onclick="closeMobileMenu()">Experience</a>
+    <a href="#education" onclick="closeMobileMenu()">Education</a>
+    <a href="#contact" onclick="closeMobileMenu()">Contact</a>
+  </div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <a href="#" class="nav-logo">Portfolio<span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="mailto:gharishbalaji72@gmail.com" class="nav-cta">Hire Me</a>
+    <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-grid-lines"></div>
+    <div class="hero-left">
+      <div class="hero-availability"><div class="dot"></div> Open to entry-level opportunities</div>
+      <div class="hero-label">Fresher in Data Science & AI/ML</div>
+      <h1 class="hero-title">
+        <div class="overflow-hidden"><span class="title-line block">Harish<em> Balaji</em></span></div>
+      </h1>
+      <p class="hero-desc">M.Sc. Data Science postgraduate from SASTRA University with hands-on experience in <strong>machine learning, deep learning, analytics, and AI projects</strong>. I am looking for entry-level opportunities where I can contribute, learn quickly, and grow as a Data Scientist or AI/ML Engineer.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn-primary">Explore Projects &rarr;</a>
+        <a href="#experience" class="btn-primary">Experience   &rarr;</a>
+        <a href="Resume.pdf" target="_blank" class="btn-outline">View Resume &#x2197;</a>
+        <a href="https://linkedin.com/in/g-harish-balaji" target="_blank" class="btn-outline">Connect on LinkedIn &#x2197;</a> <a href="https://github.com/harishbalaji07" target="_blank" class="btn-outline">View GitHub &#x2197;</a>
+      </div>
+    </div>
+    <div class="hero-photo-wrap reveal">
+      <div class="photo-frame">
+        <img id="profile-photo" src="Gemini_Generated_Image_ji58asji58asji58.png" alt="Harish Balaji G" />
+        <div class="photo-badge">
+          <span style="color:var(--muted)">// Skills</span><br>
+          ML &middot; DL &middot; CV &middot; NLP<br>
+          GenAI &middot; Python &middot; SQL
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-section">
+    <div class="marquee-track">
+      <span class="marquee-item">Python</span><span class="marquee-item marquee-sep">&#10022;</span>
+      <span class="marquee-item">TensorFlow</span><span class="marquee-item marquee-sep">&#10022;</span>
+      <span class="marquee-item">PyTorch</span><span class="marquee-item marquee-sep">&#10022;</span>
+      <span class="marquee-item">Scikit-learn</span><span class="marquee-item marquee-sep">&#10022;</span>
+      <span class="marquee-item">XGBoost</span><span class="marquee-item marquee-sep">&#10022;</span>
+      <span class="marquee-item">OpenCV</span><span class="marquee-item marquee-sep">&#10022;</span>
+      <span class="marquee-item">YOLO</span><span class="marquee-item marquee-sep">&#10022;</span>
+      <span class="marquee-item">HuggingFace</span><span class="marquee-item marquee-sep">&#10022;</span>
+      <span class="marquee-item">LLaMA</span><span class="marquee-item marquee-sep">&#10022;</span>
+      <span class="marquee-item">RAG</span><span class="marquee-item marquee-sep">&#10022;</span>
+      <span class="marquee-item">SQL</span><span class="marquee-item marquee-sep">&#10022;</span>
+      <span class="marquee-item">Power BI</span><span class="marquee-item marquee-sep">&#10022;</span>
+      <span class="marquee-item">Gradio</span><span class="marquee-item marquee-sep">&#10022;</span>
+      <span class="marquee-item">Python</span><span class="marquee-item marquee-sep">&#10022;</span>
+      <span class="marquee-item">TensorFlow</span><span class="marquee-item marquee-sep">&#10022;</span>
+      <span class="marquee-item">PyTorch</span><span class="marquee-item marquee-sep">&#10022;</span>
+      <span class="marquee-item">Scikit-learn</span><span class="marquee-item marquee-sep">&#10022;</span>
+      <span class="marquee-item">XGBoost</span><span class="marquee-item marquee-sep">&#10022;</span>
+      <span class="marquee-item">OpenCV</span><span class="marquee-item marquee-sep">&#10022;</span>
+      <span class="marquee-item">YOLO</span><span class="marquee-item marquee-sep">&#10022;</span>
+      <span class="marquee-item">HuggingFace</span><span class="marquee-item marquee-sep">&#10022;</span>
+      <span class="marquee-item">RAG</span><span class="marquee-item marquee-sep">&#10022;</span>
+      <span class="marquee-item">SQL</span><span class="marquee-item marquee-sep">&#10022;</span>
+      <span class="marquee-item">Power BI</span><span class="marquee-item marquee-sep">&#10022;</span>
+      <span class="marquee-item">Gradio</span><span class="marquee-item marquee-sep">&#10022;</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div>
+      <div class="section-label reveal">About Me</div>
+      <h2 class="section-title reveal">Turning data<br>into <em>insight.</em></h2>
+      <p class="reveal" style="color:var(--muted);line-height:1.8;max-width:480px;margin-top:1rem;">
+        I'm Harish Balaji G &mdash; a Data Science postgraduate from Cuddalore, Tamil Nadu, with hands-on experience building ML pipelines, deep learning models for NLP and computer vision, and real-time AI systems.
+      </p>
+      <div class="about-stats reveal">
+        <div class="stat-box"><div class="stat-num" data-count="5">0</div><div class="stat-label">Projects Built</div></div>
+        <div class="stat-box"><div class="stat-num" data-count="2">0</div><div class="stat-label">Internships</div></div>
+        <div class="stat-box"><div class="stat-num" data-count="5">0</div><div class="stat-label">Certifications</div></div>
+        <div class="stat-box"><div class="stat-num" data-count="10">0</div><div class="stat-label">Technologies</div></div>
+      </div>
+    </div>
+    <div class="skills-grid reveal">
+      <div class="skill-group">
+        <div class="skill-group-title">Programming & Data</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Python</span><span class="skill-tag">SQL</span>
+          <span class="skill-tag">Pandas</span><span class="skill-tag">NumPy</span>
+          <span class="skill-tag">EDA</span><span class="skill-tag">ETL</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">Machine Learning</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Scikit-learn</span><span class="skill-tag">XGBoost</span>
+          <span class="skill-tag">Feature Engineering</span><span class="skill-tag">Optuna</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">Deep Learning & NLP</div>
+        <div class="skill-tags">
+          <span class="skill-tag">TensorFlow</span><span class="skill-tag">PyTorch</span>
+          <span class="skill-tag">LSTM</span><span class="skill-tag">Seq2Seq</span>
+          <span class="skill-tag">Attention</span><span class="skill-tag">GRU</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">Computer Vision</div>
+        <div class="skill-tags">
+          <span class="skill-tag">OpenCV</span><span class="skill-tag">YOLO</span>
+          <span class="skill-tag">Roboflow</span><span class="skill-tag">pyTesseract</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">Generative AI</div>
+        <div class="skill-tags">
+          <span class="skill-tag">RAG</span><span class="skill-tag">HuggingFace</span>
+          <span class="skill-tag">LLaMA</span><span class="skill-tag">LoRA / QLoRA</span>
+          <span class="skill-tag">GANs</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">Visualization & Tools</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Power BI</span><span class="skill-tag">Matplotlib</span>
+          <span class="skill-tag">Seaborn</span><span class="skill-tag">Gradio</span>
+          <span class="skill-tag">Git</span><span class="skill-tag">Jupyter</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="projects-header">
+      <div class="reveal">
+        <div class="section-label">Selected Work</div>
+        <div class="section-title">Projects &<br><em>Case Studies</em></div>
+      </div>
+      <div class="projects-count reveal">05 Projects</div>
+    </div>
+    <p class="projects-note reveal">Selected highlights from my ML and AI work. Full walkthroughs, notebooks, and implementation details are available on request.</p>
+    <div class="project-list">
+      <div class="project-item reveal">
+        <div class="project-num">01</div>
+        <div class="project-copy">
+          <div class="project-name">OCR System</div>
+          <div class="project-sub">Text extraction from real-world shop bills &mdash; 600+ images, multi-format</div>
+          <div class="project-meta">600+ bill images processed &middot; document cleanup and text extraction workflow</div>
+        </div>
+        <div class="project-tech"><span class="tech-badge">Python</span><span class="tech-badge">OpenCV</span><span class="tech-badge">pyTesseract</span></div>
+        <div class="project-actions">
+          <a href="mailto:gharishbalaji72@gmail.com?subject=OCR%20System%20Project%20Details" class="project-link">Ask for case study <svg width="12" height="12" viewBox="0 0 14 14" fill="none"><path d="M1 13L13 1M13 1H4M13 1V10" stroke="currentColor" stroke-width="1.5"/></svg></a>
+          <a href="https://github.com/harishbalaji07" target="_blank" rel="noopener noreferrer" class="project-link secondary">GitHub Profile <svg width="12" height="12" viewBox="0 0 14 14" fill="none"><path d="M1 13L13 1M13 1H4M13 1V10" stroke="currentColor" stroke-width="1.5"/></svg></a>
+        </div>
+      </div>
+      <div class="project-item reveal">
+        <div class="project-num">02</div>
+        <div class="project-copy">
+          <div class="project-name">ISL Translation &mdash; Deep Learning</div>
+          <div class="project-sub">LSTM seq2seq with attention for English to Indian Sign Language</div>
+          <div class="project-meta">Sequence-to-sequence modeling &middot; attention-based translation pipeline</div>
+        </div>
+        <div class="project-tech"><span class="tech-badge">Python</span><span class="tech-badge">PyTorch</span><span class="tech-badge">NLP</span></div>
+        <div class="project-actions">
+          <a href="mailto:gharishbalaji72@gmail.com?subject=ISL%20Translation%20Project%20Details" class="project-link">Ask for case study <svg width="12" height="12" viewBox="0 0 14 14" fill="none"><path d="M1 13L13 1M13 1H4M13 1V10" stroke="currentColor" stroke-width="1.5"/></svg></a>
+          <a href="https://github.com/harishbalaji07" target="_blank" rel="noopener noreferrer" class="project-link secondary">GitHub Profile <svg width="12" height="12" viewBox="0 0 14 14" fill="none"><path d="M1 13L13 1M13 1H4M13 1V10" stroke="currentColor" stroke-width="1.5"/></svg></a>
+        </div>
+      </div>
+      <div class="project-item reveal">
+        <div class="project-num">03</div>
+        <div class="project-copy">
+          <div class="project-name">Gamer Engagement Prediction</div>
+          <div class="project-sub">End-to-end ETL + real-time ML system &mdash; 91.6% accuracy with XGBoost</div>
+          <div class="project-meta">91.6% accuracy &middot; real-time predictions with deployable interface</div>
+        </div>
+        <div class="project-tech"><span class="tech-badge">XGBoost</span><span class="tech-badge">Optuna</span><span class="tech-badge">Gradio</span></div>
+        <div class="project-actions">
+          <a href="mailto:gharishbalaji72@gmail.com?subject=Gamer%20Engagement%20Prediction%20Project%20Details" class="project-link">Ask for case study <svg width="12" height="12" viewBox="0 0 14 14" fill="none"><path d="M1 13L13 1M13 1H4M13 1V10" stroke="currentColor" stroke-width="1.5"/></svg></a>
+          <a href="https://github.com/harishbalaji07/Gaming-Engagement-Analysis" target="_blank" rel="noopener noreferrer" class="project-link secondary">GitHub Repo <svg width="12" height="12" viewBox="0 0 14 14" fill="none"><path d="M1 13L13 1M13 1H4M13 1V10" stroke="currentColor" stroke-width="1.5"/></svg></a>
+        </div>
+      </div>
+      <div class="project-item reveal">
+        <div class="project-num">04</div>
+        <div class="project-copy">
+          <div class="project-name">Cryptocurrency Forecasting &mdash; ADA</div>
+          <div class="project-sub">LSTM, GRU & Dense models for Cardano price prediction (R&sup2; = 0.91)</div>
+          <div class="project-meta">R&sup2; = 0.91 &middot; time-series forecasting across multiple deep learning models</div>
+        </div>
+        <div class="project-tech"><span class="tech-badge">TensorFlow</span><span class="tech-badge">Keras</span><span class="tech-badge">Finance</span></div>
+        <div class="project-actions">
+          <a href="mailto:gharishbalaji72@gmail.com?subject=Cryptocurrency%20Forecasting%20Project%20Details" class="project-link">Ask for case study <svg width="12" height="12" viewBox="0 0 14 14" fill="none"><path d="M1 13L13 1M13 1H4M13 1V10" stroke="currentColor" stroke-width="1.5"/></svg></a>
+          <a href="https://github.com/harishbalaji07/Cryptocurrency-Forecasting" target="_blank" rel="noopener noreferrer" class="project-link secondary">GitHub Repo <svg width="12" height="12" viewBox="0 0 14 14" fill="none"><path d="M1 13L13 1M13 1H4M13 1V10" stroke="currentColor" stroke-width="1.5"/></svg></a>
+        </div>
+      </div>
+      <div class="project-item reveal">
+        <div class="project-num">05</div>
+        <div class="project-copy">
+          <div class="project-name">Student Information Chatbot</div>
+          <div class="project-sub">PHP chatbot for academic queries &mdash; automated FAQs, reduced admin workload</div>
+          <div class="project-meta">Automated FAQ support &middot; reduced repetitive academic admin queries</div>
+        </div>
+        <div class="project-tech"><span class="tech-badge">PHP</span><span class="tech-badge">MySQL</span><span class="tech-badge">HTML/CSS</span></div>
+        <div class="project-actions">
+          <a href="mailto:gharishbalaji72@gmail.com?subject=Student%20Information%20Chatbot%20Project%20Details" class="project-link">Ask for case study <svg width="12" height="12" viewBox="0 0 14 14" fill="none"><path d="M1 13L13 1M13 1H4M13 1V10" stroke="currentColor" stroke-width="1.5"/></svg></a>
+          <a href="https://github.com/harishbalaji07/Student-Information-Chatbot" target="_blank" rel="noopener noreferrer" class="project-link secondary">GitHub Repo <svg width="12" height="12" viewBox="0 0 14 14" fill="none"><path d="M1 13L13 1M13 1H4M13 1V10" stroke="currentColor" stroke-width="1.5"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="section-label reveal">Experience</div>
+    <div class="exp-grid">
+      <div class="timeline reveal">
+        <div class="timeline-item">
+          <div class="timeline-year">May 2025 &mdash; Jul 2025</div>
+          <div class="timeline-role">Reserarch Intern &mdash; Deep Learning</div>
+          <div class="timeline-org">SSN College of Engineering, Chennai</div>
+          <div class="timeline-desc">Built seq2seq NLP model (Python, PyTorch, LSTM) to translate English to ISL. Implemented attention mechanisms and built a live translation interface. Evaluated using Accuracy and BLEU score.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">Jan 2024</div>
+          <div class="timeline-role">Networking Intern</div>
+          <div class="timeline-org">BSNL, Trichy</div>
+          <div class="timeline-desc">Gained hands-on exposure to telecom protocols, switching systems, and fiber-based networks. Understood practical network infrastructure and digital communication systems.</div>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="exp-right-intro">Built to <em>solve</em><br>real problems.</div>
+        <div class="section-label">Technical Interests</div>
+        <div class="skill-tags" style="margin-top:1rem; gap:0.6rem;">
+          <span class="skill-tag">Machine Learning</span>
+          <span class="skill-tag">Natural Language Processing</span>
+          <span class="skill-tag">Deep Learning</span>
+          <span class="skill-tag">Predictive Analytics</span>
+          <span class="skill-tag">Computer Vision</span>
+          <span class="skill-tag">Generative AI</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="section-label reveal">Education</div>
+    <h2 class="section-title reveal">Academic<br><em>Background</em></h2>
+    <div class="edu-grid">
+      <div class="edu-card reveal">
+        <div class="edu-degree">M.Sc. in Data Science</div>
+        <div class="edu-school">SASTRA Deemed University</div>
+        <div class="edu-year">2024 &mdash; Present (Pursuing)</div>
+      </div>
+      <div class="edu-card reveal">
+        <div class="edu-degree">B.Sc. in Computer Science</div>
+        <div class="edu-school">Bishop Heber College, Trichy</div>
+        <div class="edu-year">2021 &mdash; 2024 &middot; CGPA: 7.12</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications">
+    <div class="section-label reveal">Certifications</div>
+    <h2 class="section-title reveal">Recognized<br><em>Learning</em></h2>
+    <p class="cert-intro reveal">A curated credential wall covering Python foundations, analytics, job simulations, and internship recognition. Available certificates now open directly from this section.</p>
+    <div class="cert-grid">
+      <article class="cert-card has-file reveal">
+        <div class="cert-card-top">
+          <span class="cert-badge">Verified Learning</span>
+          <span class="cert-year">2025</span>
+        </div>
+        <div class="cert-main">
+          <div>
+            <div class="cert-name">The Joy of Computing using Python</div>
+            <div class="cert-issuer">NPTEL</div>
+            <p class="cert-desc">Built a stronger foundation in Python problem solving, programming logic, and applied computational thinking.</p>
+            <div class="cert-tags">
+              <span class="cert-tag">Python</span>
+              <span class="cert-tag">Programming</span>
+              <span class="cert-tag">Problem Solving</span>
+            </div>
+          </div>
+          <div class="cert-proof">
+            <div class="cert-proof-label">Credential Preview</div>
+            <div class="cert-proof-title">Python Track</div>
+            <div class="cert-proof-meta">NPTEL &middot; 2025</div>
+          </div>
+        </div>
+        <a href="The-Joy-of-Computing-using-Python.pdf" target="_blank" class="cert-action">View Certificate</a>
+      </article>
+
+      <article class="cert-card has-file reveal">
+        <div class="cert-card-top">
+          <span class="cert-badge">Verified Learning</span>
+          <span class="cert-year">2025</span>
+        </div>
+        <div class="cert-main">
+          <div>
+            <div class="cert-name">Learning Analytics Tools</div>
+            <div class="cert-issuer">NPTEL</div>
+            <p class="cert-desc">Focused on analytics workflows, educational data interpretation, and turning data signals into usable insight.</p>
+            <div class="cert-tags">
+              <span class="cert-tag">Analytics</span>
+              <span class="cert-tag">Data Insight</span>
+              <span class="cert-tag">Tooling</span>
+            </div>
+          </div>
+          <div class="cert-proof">
+            <div class="cert-proof-label">Credential Preview</div>
+            <div class="cert-proof-title">Analytics Tools</div>
+            <div class="cert-proof-meta">NPTEL &middot; 2025</div>
+          </div>
+        </div>
+        <a href="Learning-Analytics-Tools.pdf" target="_blank" class="cert-action">View Certificate</a>
+      </article>
+
+      <article class="cert-card has-file reveal">
+        <div class="cert-card-top">
+          <span class="cert-badge">Industry Simulation</span>
+          <span class="cert-year">2025</span>
+        </div>
+        <div class="cert-main">
+          <div>
+            <div class="cert-name">GenAI Powered Data Analytics Job Simulation</div>
+            <div class="cert-issuer">TATA &amp; Forage</div>
+            <p class="cert-desc">Explored practical GenAI-assisted analytics tasks and business-style problem solving in a simulated work environment.</p>
+            <div class="cert-tags">
+              <span class="cert-tag">GenAI</span>
+              <span class="cert-tag">Analytics</span>
+              <span class="cert-tag">Simulation</span>
+            </div>
+          </div>
+          <div class="cert-proof">
+            <div class="cert-proof-label">Credential Preview</div>
+            <div class="cert-proof-title">GenAI Analytics</div>
+            <div class="cert-proof-meta">TATA &middot; 2025</div>
+          </div>
+        </div>
+        <a href="TATA-GenAI-Powered-Data-Analytics-Job-Simulation.pdf" target="_blank" class="cert-action">View Certificate</a>
+      </article>
+
+      <article class="cert-card has-file reveal">
+        <div class="cert-card-top">
+          <span class="cert-badge">Industry Simulation</span>
+          <span class="cert-year">2025</span>
+        </div>
+        <div class="cert-main">
+          <div>
+            <div class="cert-name">Data Analytics Job Simulation</div>
+            <div class="cert-issuer">Deloitte via Forage</div>
+            <p class="cert-desc">Worked through applied analytics scenarios that mirror consulting-style data analysis and decision support tasks.</p>
+            <div class="cert-tags">
+              <span class="cert-tag">Data Analytics</span>
+              <span class="cert-tag">Consulting</span>
+              <span class="cert-tag">Business Insight</span>
+            </div>
+          </div>
+          <div class="cert-proof">
+            <div class="cert-proof-label">Credential Preview</div>
+            <div class="cert-proof-title">Analytics Sim</div>
+            <div class="cert-proof-meta">Deloitte &middot; 2025</div>
+          </div>
+        </div>
+        <a href="Deloitte-Data-Analytics-Job-Simulation.pdf" target="_blank" class="cert-action">View Certificate</a>
+      </article>
+
+      <article class="cert-card has-file reveal">
+        <div class="cert-card-top">
+          <span class="cert-badge">Certified Learning</span>
+          <span class="cert-year">2024</span>
+        </div>
+        <div class="cert-main">
+          <div>
+            <div class="cert-name">Fundamentals of Digital Marketing</div>
+            <div class="cert-issuer">Google Digital Unlocked</div>
+            <p class="cert-desc">Strengthened understanding of digital channels, audience reach, and practical campaign thinking across modern platforms.</p>
+            <div class="cert-tags">
+              <span class="cert-tag">Marketing</span>
+              <span class="cert-tag">Strategy</span>
+              <span class="cert-tag">Digital</span>
+            </div>
+          </div>
+          <div class="cert-proof">
+            <div class="cert-proof-label">Credential Preview</div>
+            <div class="cert-proof-title">Marketing Core</div>
+            <div class="cert-proof-meta">Google &middot; 2024</div>
+          </div>
+        </div>
+        <a href="Fundamental Of Digittal Marketing.pdf" target="_blank" class="cert-action">View Certificate</a>
+      </article>
+
+      <article class="cert-card has-file reveal">
+        <div class="cert-card-top">
+          <span class="cert-badge">Internship Credential</span>
+          <span class="cert-year">2025</span>
+        </div>
+        <div class="cert-main">
+          <div>
+            <div class="cert-name">Internship Completion Certificate</div>
+            <div class="cert-issuer">SSN College of Engineering</div>
+            <p class="cert-desc">Recognition for completing the ISL-focused deep learning internship, including model building, attention-based sequence work, and applied translation interface development.</p>
+            <div class="cert-tags">
+              <span class="cert-tag">Internship</span>
+              <span class="cert-tag">Deep Learning</span>
+              <span class="cert-tag">NLP</span>
+            </div>
+          </div>
+          <div class="cert-proof">
+            <div class="cert-proof-label">Credential Preview</div>
+            <div class="cert-proof-title">SSN Internship</div>
+            <div class="cert-proof-meta">SSN College &middot; 2025</div>
+          </div>
+        </div>
+        <a href="SSN Internn.pdf" target="_blank" class="cert-action">View Certificate</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="contact-inner">
+      <div>
+        <div class="section-label reveal">Get In Touch</div>
+        <div class="contact-big reveal">Let's<br><em>connect.</em></div>
+        <p class="contact-sub reveal">Whether you have a project, a collaboration idea, or want to talk about AI/ML &mdash; I'm always open to a good conversation.</p>
+        <div class="contact-links reveal">
+          <a href="mailto:gharishbalaji72@gmail.com" class="contact-link">
+            <div><div class="contact-link-label">Email</div><div class="contact-link-val">gharishbalaji72@gmail.com</div></div>
+            <svg width="16" height="16" viewBox="0 0 18 18" fill="none"><path d="M1 17L17 1M17 1H4M17 1V14" stroke="currentColor" stroke-width="1.5"/></svg>
+          </a>
+          <a href="https://github.com/harishbalaji07" target="_blank" class="contact-link">
+            <div><div class="contact-link-label">GitHub</div><div class="contact-link-val">github.com/harishbalaji07</div></div>
+            <svg width="16" height="16" viewBox="0 0 18 18" fill="none"><path d="M1 17L17 1M17 1H4M17 1V14" stroke="currentColor" stroke-width="1.5"/></svg>
+          </a>
+          <a href="https://linkedin.com/in/g-harish-balaji" target="_blank" class="contact-link">
+            <div><div class="contact-link-label">LinkedIn</div><div class="contact-link-val">linkedin.com/in/g-harish-balaji</div></div>
+            <svg width="16" height="16" viewBox="0 0 18 18" fill="none"><path d="M1 17L17 1M17 1H4M17 1V14" stroke="currentColor" stroke-width="1.5"/></svg>
+          </a>
+          <a href="tel:+916385332781" class="contact-link" style="border-radius:0 0 8px 8px;">
+            <div><div class="contact-link-label">Phone</div><div class="contact-link-val">+91 6385332781</div></div>
+            <svg width="16" height="16" viewBox="0 0 18 18" fill="none"><path d="M1 17L17 1M17 1H4M17 1V14" stroke="currentColor" stroke-width="1.5"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="contact-form-wrap reveal">
+        <div class="section-label">Send A Message</div>
+        <form id="contact-form" onsubmit="handleFormSubmit(event)" style="margin-top:1.5rem;">
+          <div class="form-group"><label class="form-label" for="fname">Your Name</label><input type="text" id="fname" name="user_name" class="form-input" placeholder="John Doe" required /></div>
+          <div class="form-group"><label class="form-label" for="femail">Email Address</label><input type="email" id="femail" name="user_email" class="form-input" placeholder="john@example.com" required /></div>
+          <div class="form-group"><label class="form-label" for="fsubject">Subject</label><input type="text" id="fsubject" name="subject" class="form-input" placeholder="Project Inquiry" required /></div>
+          <div class="form-group"><label class="form-label" for="fmsg">Message</label><textarea id="fmsg" name="message" class="form-textarea" placeholder="Tell me about your idea..." required></textarea></div>
+          <button type="submit" class="form-submit"><span>Send Message &rarr;</span></button>
+          <div id="form-success">&#10003; Message sent! I'll get back to you soon.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-left">&copy; 2025 Harish Balaji G. All rights reserved.</div>
+    <div class="footer-logo">hb<span>.</span>ai</div>
+    <div class="footer-right">Built with &hearts; from Tamil Nadu</div>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>
